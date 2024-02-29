@@ -4,17 +4,19 @@ Mit diesem kleinen Plugin kannst du das Standard Produktlayout in Shopware 6 än
 
 Ab diesem Zeitpunkt wird dieses Produktlayout und nicht das von Shopware definierte als Standard verwendet.
 
-- **Version 1.**: Shopware 6.4
-- **Version 2.**: Shopware 6.5
-
-![Screenshot Konfiguration](screenshot.png)
-
-___
 ## Customized standard product layout for Shopware 6
 
 With this small plugin you can change the default product layout in Shopware 6. Simply go to the plugin configuration and set your desired product layout as the default.
 
 From this point on, this product layout and not the one defined by Shopware will be used as the default.
+
+## Version info
+
+- **Version 1.**: Shopware 6.4
+- **Version 2.**: Shopware 6.5
+
+![Screenshot Konfiguration](screenshot.png)
+
 ___
 
 ## Changelog
@@ -25,9 +27,7 @@ ___
 
 ___
 
-## AREA-NET GmbH
-
-Die AREA-NET GmbH ist Shopware Partner Agentur und Shopware Hersteller, sowie Pickware Partner aus dem Großraum Stuttgart in Baden-Württemberg/Deutschland. 
+## Shopware Theme und Plugins
 
 Neben kostenlosen Open-Source Shopware-Plugins bietet die Shopware-Agentur auch Themes und Plugins im Shopware-Store an:
 
@@ -37,14 +37,21 @@ Neben kostenlosen Open-Source Shopware-Plugins bietet die Shopware-Agentur auch 
 - [Optimierte Inhaltsbearbeitung](https://store.shopware.com/arean36129443353f/optimierte-inhaltsbearbeitung-inhalte-nur-im-designer-bearbeiten-inhalte-in-layout-uebertragen.html) für CMS-Seiten und Kategorien
 - [HTTP-Auth](https://store.shopware.com/arean97586892435f/http-authentifizierung-fuer-verkaufskanaele.html) für Verkaufskanäle
 
-**AREA-NET GmbH**
+## AREA-NET GmbH
+Die AREA-NET GmbH ist Shopware Partner Agentur und Shopware Hersteller, sowie Pickware Partner aus dem Großraum Stuttgart in Baden-Württemberg/Deutschland. 
 
-Öschstrasse 33
+**Adresse**\
+Öschstrasse 33\
 73072 Donzdorf
-Telefon: +49 (0)7162 - 941140
-Mail: info@area-net.de
+
+Telefon: +49 (0)7162 - 941140\
+Mail: [info@area-net.de](mailto:info@area-net.de)\
+Web: [www.area-net.de](https://www.area-net)
 
 Mehr Informationen, Projektanfragen und Support gibt es auf der Website der [Shopware-Agentur AREA-NET GmbH](https://www.area-net.de).
 
+**Follow us**
 
+- https://linkedin.com/companyarea-net-gmbh-shopware-agentur
+- https://www.facebook.com/area.net.gmbh
 
