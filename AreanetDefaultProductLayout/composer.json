@@ -1,0 +1,22 @@
+{
+    "name": "areanet/default-product-layout",
+    "type": "shopware-platform-plugin",
+    "description": "Custom defaultlayout for products @area-net.den",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "6.4.* ||  6.5.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "AreanetDefaultProductLayout\\AreanetDefaultProductLayout",
+        "label": {
+            "de-DE": "Eigenes Standardlayout für Produkte @area-net.de",
+            "en-GB": "Custom defaultlayout for products @area-net.den"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AreanetDefaultProductLayout\\": "src/"
+        }
+    }
+}
