@@ -10,11 +10,14 @@ With this small plugin you can change the default product layout in Shopware 6. 
 
 From this point on, this product layout and not the one defined by Shopware will be used as the default.
 
-## Version info
+## Version info and download
 
 - **Version 1.**: Shopware 6.4
 - **Version 2.**: Shopware 6.5
 
+[Download Releases](https://github.com/AREA-NET-GmbH-Shopware-Agentur/plugin-default-product-layout/releases)
+
+## Screenshot
 ![Screenshot Konfiguration](screenshot.png)
 
 ___
