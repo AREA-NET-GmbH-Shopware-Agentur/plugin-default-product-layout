@@ -8,6 +8,8 @@ use Shopware\Core\Content\Product\AbstractProductVariationBuilder;
 use Shopware\Core\Content\Product\AbstractPropertyGroupSorter;
 use Shopware\Core\Content\Product\ProductDefinition;
 use Shopware\Core\Content\Product\SalesChannel\Price\AbstractProductPriceCalculator;
+use Shopware\Core\Framework\Api\Context\AdminApiSource;
+use Shopware\Core\Framework\Api\Context\SalesChannelApiSource;
 use Shopware\Core\Framework\DataAbstractionLayer\Entity;
 use Shopware\Core\Framework\DataAbstractionLayer\Event\EntityLoadedEvent;
 use Shopware\Core\Framework\Feature;
@@ -35,7 +37,13 @@ class AreanetProductSubscriber implements EventSubscriberInterface
 
     public function loaded(EntityLoadedEvent $event)
     {
-        $salesChannelId  = $event->getContext()->getSource()->getSalesChannelId();
+
+        $source = $event->getContext()->getSource();
+        if(!($source instanceof SalesChannelApiSource)){
+            return;
+        }
+
+        $salesChannelId  = $source->getSalesChannelId();
 
         foreach ($event->getEntities() as $product) {
             $this->setDefaultLayout($product, $salesChannelId);
