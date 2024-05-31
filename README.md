@@ -12,8 +12,9 @@ From this point on, this product layout and not the one defined by Shopware will
 
 ## Version info and download
 
-- **Version 1.**: Shopware 6.4
+- **Version 3.**: Shopware 6.6
 - **Version 2.**: Shopware 6.5
+- **Version 1.**: Shopware 6.4
 
 [Download Releases](https://github.com/AREA-NET-GmbH-Shopware-Agentur/plugin-default-product-layout/releases)
 
@@ -23,6 +24,10 @@ From this point on, this product layout and not the one defined by Shopware will
 ___
 
 ## Changelog
+
+## [3.0.0] - 2024-05-31
+
+- Shopware 6.6 compatibility [#12(https://github.com/AREA-NET-GmbH-Shopware-Agentur/plugin-default-product-layout/issues)
 
 ## [1.0.1 / 2.0.1] - 2024-03-01
 
