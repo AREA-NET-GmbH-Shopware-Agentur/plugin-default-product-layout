@@ -2,10 +2,10 @@
     "name": "areanet/default-product-layout",
     "type": "shopware-platform-plugin",
     "description": "Custom defaultlayout for products @area-net.den",
-    "version": "2.0.1",
+    "version": "DYNAMIC_VERSION",
     "license": "MIT",
     "require": {
-        "shopware/core": "6.4.* ||  6.5.*"
+        "shopware/core": "6.4.* ||  6.5.* ||  6.6.*"
     },
     "extra": {
         "shopware-plugin-class": "AreanetDefaultProductLayout\\AreanetDefaultProductLayout",
